@@ -7,7 +7,7 @@ public class SortTestHelper {
     private SortTestHelper(){}
 
     public static Integer[] generateRandomArray(int length, int rangeL, int rangeR){
-        Preconditions.checkArgument(rangeL <= rangeR, "rangeL <= rangR");
+        Preconditions.checkArgument(rangeL <= rangeR, "rangeL <= rangeR");
         Integer[] data = new Integer[length];
         for (int i = 0; i < length; i++) {
             data[i] = Integer.valueOf((int)(Math.random() * (rangeR - rangeL + 1) + rangeL));
