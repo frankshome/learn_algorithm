@@ -11,12 +11,8 @@ public class InsertSort {
 
     public static <T extends Comparable> void sort(T[] data) {
         for (int i = 1; i < data.length; i++) {
-            for (int j = i; j > 0; j--) {
-                if (data[j].compareTo(data[j-1]) > 0){
-                    break;
-                }else{
-                    swap(data, j, j-1);
-                }
+            for (int j = i; j > 0 && data[j].compareTo(data[j-1]) < 0; j--) {
+                swap(data, j, j-1);
             }
         }
     }
