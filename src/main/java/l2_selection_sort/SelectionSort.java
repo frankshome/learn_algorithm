@@ -1,11 +1,14 @@
 package l2_selection_sort;
 
+import l3_selection_sort_gen_testcase.SortTestHelper;
 import org.apache.commons.lang3.StringUtils;
 
 /**
  * Created by xuhu on 2017/9/23.
  */
 public class SelectionSort {
+
+    private SelectionSort(){}
 
     public static <T extends Comparable> void sort(T[] data){
         for(int i = 0; i < data.length; i++){
@@ -27,9 +30,10 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        Integer[] data1 = {10, 22, 66, 9, 7, 12, 5, 1, 66};
+        Integer[] data1 = SortTestHelper.generateRandomArray(10, 1, 30);
+        System.out.println("pre sort:" + StringUtils.join(data1, ','));
         sort(data1);
-        System.out.println(StringUtils.join(data1, ','));
+        System.out.println("sorted:" + StringUtils.join(data1, ','));
 
         System.out.println("=====================================");
 
