@@ -1,6 +1,6 @@
-package l2_selection_sort;
+package lesson1.l2_selection_sort;
 
-import l3_selection_sort_gen_testcase.SortTestHelper;
+import lesson1.l3_selection_sort_gen_testcase.SortTestHelper;
 import org.apache.commons.lang3.StringUtils;
 
 /**

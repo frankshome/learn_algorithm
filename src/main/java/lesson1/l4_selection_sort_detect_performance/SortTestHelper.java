@@ -1,4 +1,4 @@
-package l4_selection_sort_detect_performance;
+package lesson1.l4_selection_sort_detect_performance;
 
 import com.google.common.base.Preconditions;
 import org.apache.commons.lang3.StringUtils;

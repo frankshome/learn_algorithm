@@ -1,4 +1,4 @@
-package l2_selection_sort;
+package lesson1.l2_selection_sort;
 
 /**
  * Created by xuhu on 2017/9/23.

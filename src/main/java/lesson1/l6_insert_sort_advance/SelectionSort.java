@@ -1,4 +1,4 @@
-package l6_insert_sort_advance;
+package lesson1.l6_insert_sort_advance;
 
 import org.apache.commons.lang3.ArrayUtils;
 

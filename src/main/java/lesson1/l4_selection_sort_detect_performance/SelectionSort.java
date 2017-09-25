@@ -1,4 +1,4 @@
-package l4_selection_sort_detect_performance;
+package lesson1.l4_selection_sort_detect_performance;
 
 public class SelectionSort {
     private SelectionSort(){}

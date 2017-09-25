@@ -1,8 +1,6 @@
-package l1_selection_sort;
+package lesson1.l1_selection_sort;
 
 import org.apache.commons.lang3.StringUtils;
-
-import java.util.Collections;
 
 /**
  * Created by xuhu on 2017/9/23.

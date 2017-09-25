@@ -1,7 +1,6 @@
-package l6_insert_sort_advance;
+package lesson1.l6_insert_sort_advance;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
 public class SortTest {
@@ -12,7 +11,7 @@ public class SortTest {
         Integer[] data = SortTestHelper.generateRandomArray(N, 0, N);
         Integer[] cloneData = ArrayUtils.clone(data);
         System.out.println("优化前:");
-        SortTestHelper.testSort(l5_insert_sort.InsertSort.class, cloneData);
+        SortTestHelper.testSort(lesson1.l5_insert_sort.InsertSort.class, cloneData);
         System.out.println("优化后:");
         SortTestHelper.testSort(InsertSort.class, data);
     }

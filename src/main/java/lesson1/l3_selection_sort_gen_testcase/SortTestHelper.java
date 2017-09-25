@@ -1,4 +1,4 @@
-package l3_selection_sort_gen_testcase;
+package lesson1.l3_selection_sort_gen_testcase;
 
 import com.google.common.base.Preconditions;
 import org.apache.commons.lang3.StringUtils;
