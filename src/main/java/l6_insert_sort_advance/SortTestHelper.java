@@ -41,4 +41,20 @@ public class SortTestHelper {
     public static void main(String[] args) {
         System.out.println(StringUtils.join(generateRandomArray(10, 0, 10), ','));
     }
+
+    public static Integer[] generateNearlyOrderedArray(int n, int swapTimes){
+        Integer[] data = new Integer[n];
+        for (int i = 0; i < n; i++) {
+            data[i] = i;
+        }
+
+        for (int i = 0; i < swapTimes; i++) {
+            int posX = (int) (Math.random() * n);
+            int posY = (int) (Math.random() * n);
+            int t = data[posX];
+            data[posX] = data[posY];
+            data[posY] = t;
+        }
+        return data;
+    }
 }
