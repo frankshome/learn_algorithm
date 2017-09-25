@@ -1,4 +1,4 @@
-package lesson1.l5_insert_sort;
+package lesson1.l5_insertion_sort;
 
 import com.google.common.base.Preconditions;
 

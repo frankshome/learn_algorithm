@@ -1,9 +1,9 @@
-package lesson1.l6_insert_sort_advance;
+package lesson1.l6_insertion_sort_advance;
 
 import org.apache.commons.lang3.StringUtils;
 
-public class InsertSort {
-    private InsertSort(){}
+public class InsertionSort {
+    private InsertionSort(){}
 
     public static <T extends Comparable> void sort(T[] data) {
         for (int i = 0; i < data.length; i++) {

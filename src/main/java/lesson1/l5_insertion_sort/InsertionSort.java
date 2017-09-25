@@ -1,13 +1,13 @@
-package lesson1.l5_insert_sort;
+package lesson1.l5_insertion_sort;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import static org.apache.commons.lang3.ArrayUtils.swap;
 
-public class InsertSort {
+public class InsertionSort {
 
-    private InsertSort(){}
+    private InsertionSort(){}
 
     public static <T extends Comparable> void sort(T[] data) {
         for (int i = 1; i < data.length; i++) {
@@ -22,7 +22,7 @@ public class InsertSort {
         Integer[] data = SortTestHelper.generateRandomArray(len, 0, len);
         Integer[] cloneData = ArrayUtils.clone(data);
         System.out.println(StringUtils.join(data, ','));
-        SortTestHelper.testSort(InsertSort.class, data);
+        SortTestHelper.testSort(InsertionSort.class, data);
         SortTestHelper.testSort(SelectionSort.class, cloneData);
         System.out.println(StringUtils.join(data, ','));
 

@@ -1,9 +1,10 @@
-package lesson1.l5_insert_sort;
+package lesson1.l7_base_sort;
 
 import org.apache.commons.lang3.ArrayUtils;
 
 public class SelectionSort {
     private SelectionSort(){}
+
     public static <T extends Comparable> void sort(T[] data) {
         for (int i = 0; i < data.length; i++) {
             int minDataIdx = i;
